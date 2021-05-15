@@ -5,8 +5,8 @@ body {
 	margin: 0; /* Убираем отступы */
 }
 
-header, main, footer { 
-	min-width: 855px; 
+header, main, footer {
+	min-width: 855px;
 }
 
 /*ссылки*/
@@ -16,7 +16,7 @@ a {
 }
 a:hover { /* псевдокласс для подчеркивания при наведении*/
 	text-decoration: underline;
-	color: #00a85a;
+	color: #1E90FF;
 }
 
 h3, h4 {
@@ -26,7 +26,7 @@ h3, h4 {
 h2 {
 	font-size:25px;
 	padding: 20px;
-	color: #00a85a;
+	color: #1E90FF;
 }
 .image h2 {
 	font-size:25px;
@@ -37,10 +37,10 @@ h3 {
 	padding-left: 20px;
 }
 
-header { 
-	background: white; 
+header {
+	background: white;
 	overflow: auto;
-	padding: 10px; 
+	padding: 10px;
 }
 header img {
 	float: left;
@@ -62,28 +62,28 @@ header nav {
 	padding-right: 100px;
 }
 
-.block_menu {  
+.block_menu {
     margin-right : 0.1%;
     width: 100%;
     float:left;
-    background: #00a85a;
+    background: #1E90FF;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-main { 
+main {
 	width: 100%;
     /*float:left;*/
-	background: white; 
+	background: white;
 	overflow: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 main h3 {
 	margin-top: 10px;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
 }
-main .container { 
+main .container {
 	max-width: 1000px;
 	margin: auto;
 }
@@ -103,13 +103,13 @@ main .bottom-main {
 	line-height: 1.5;
 }
 main .top-main h2, h3 {
-	color: #00a85a;
+	color: #1E90FF;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-main .left-main { 
+main .left-main {
 	margin-top: 15px;
-	border-right: solid 1px #00a85a;
+	border-right: solid 1px #1E90FF;
 	width: 50%;
 	float:left;
 	/*padding-bottom: 10px;*/
@@ -117,7 +117,7 @@ main .left-main {
 main .right-main {
 	margin-top: 15px;
 	width: 49%;
-	float:right;	
+	float:right;
 }
 main .map1 {
 	margin-top: 15px;
@@ -134,7 +134,7 @@ main .map1 {
 ul.content_block_main li {
     display: inline; /* Отображать как строчный элемент */
     list-style-type: none;
-    padding-left: 8%; 
+    padding-left: 8%;
 }
 ul.content_block_main li a {
 	color: #F2F1EF;
@@ -147,14 +147,14 @@ ul.content_block_main li a:hover {
 .image ul, .image li {
 	padding-left: 0;
 	list-style-type: none;
-}    
+}
 /*----------Затемнение-----------*/
 .blackout {
 	width: 100%;
 	top: 690px;
 	height: 180px;
 	position: absolute;
-	background: #00a85a;
+	background: #1E90FF;
 	color: #F2F1EF;
 	opacity: 0.8;
 }
@@ -162,16 +162,16 @@ ul.content_block_main li a:hover {
 .right_btn1_2 {
 	right: 1%;
 	font-size: 24px;
-	text-align: right;      
+	text-align: right;
 }
 .left_btn1_2 {
-	left: 1%;  
+	left: 1%;
 	float: left;
-	text-align: left;    
+	text-align: left;
 }
 .right_btn1_2, .left_btn1_2 {
 	position: absolute;
-	background: #00a85a;
+	background: #1E90FF;
 	padding: 14px 16px;
 	font-size: 24px;
 	color: black;
@@ -179,7 +179,7 @@ ul.content_block_main li a:hover {
 	cursor: pointer;
 	border: none;
 	border-radius: 55px;
-	margin-top:360px; 
+	margin-top:360px;
 }
 button.right_btn1_2, button.left_btn1_2 {
 	color: #F2F1EF;
@@ -204,7 +204,7 @@ ul {
 	list-style-position: inside;
 }
 footer {
-	background: #00a85a; 
+	background: #1E90FF;
 	overflow: auto;
 	padding: 10px;
 	color: #F2F1EF;
@@ -223,22 +223,22 @@ footer .contact {
 	padding-left: 100px;
 }
 footer .sitemap {
-	float: right;	
+	float: right;
 	width: 285px;
 	padding-right: 100px;
 }
 
 .tabs a span {
-	display: inline-block; 
-	border-radius: 5px 5px 0 0; 
-	width: 120px; 
-	margin-right: 10px; 
-	text-align: center; 
-	background: #ccc; 
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 120px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ccc;
 	padding: 5px;
 }
-.tabs a span.active { 
-	background: #ddd; 
+.tabs a span.active {
+	background: #ddd;
 }
 
 .content {
@@ -307,7 +307,7 @@ footer .sitemap {
 	transform: translate(-50%, 0); /*                центру*/
 	width: 185px;
 	height: 34px; /* уменьшил ширину с 40px для того, чтоб по высоте текст выравнивался (костыль, другие методы не работают) */
-	background: #00a85a;
+	background: #1E90FF;
 	border: 0;
 	text-align: center;
 	padding-top: 6px; /* продолжение костыля */
@@ -325,8 +325,8 @@ footer .sitemap {
 .h2_request {
 	display: inline-block;
 	width: 460px;
-	background: #00a85a;
-	color: #F2F1EF; 
+	background: #1E90FF;
+	color: #F2F1EF;
 }
 .form_request p {
 	line-height: 1.5;
@@ -383,7 +383,7 @@ footer .sitemap {
 	float: left;
 	width: 185px;
 	height: 29px; /* уменьшил ширину с 40px для того, чтоб по высоте текст выравнивался (костыль, другие методы не работают) */
-	background: #00a85a;
+	background: #1E90FF;
 	border: 0;
 	text-align: center;
 	padding-top: 11px; /* продолжение костыля */
@@ -407,7 +407,7 @@ footer .sitemap {
 	float: right;
 	width: 185px;
 	height: 29px; /* уменьшил ширину с 40px для того, чтоб по высоте текст выравнивался (костыль, другие методы не работают) */
-	background: #00a85a;
+	background: #1E90FF;
 	border: 0;
 	text-align: center;
 	padding-top: 11px; /* продолжение костыля */
@@ -479,8 +479,8 @@ footer .sitemap {
 .h2_register {
 	display: inline-block;
 	width: 930px;
-	background: #00a85a;
-	color: #F2F1EF; 
+	background: #1E90FF;
+	color: #F2F1EF;
 }
 .form_register p {
 	line-height: 1.5;
@@ -505,7 +505,7 @@ footer .sitemap {
 	float: right;
 	width: 185px;
 	height: 29px; /* уменьшил ширину с 40px для того, чтоб по высоте текст выравнивался (костыль, другие методы не работают) */
-	background: #00a85a;
+	background: #1E90FF;
 	border: 0;
 	text-align: center;
 	padding-top: 11px; /* продолжение костыля */
@@ -535,13 +535,13 @@ table.price_table td{
 	vertical-align: middle;
 }
 table.price_table td.td-name {
-	background-color:#00a85a;
+	background-color:#1E90FF;
 }
 table.price_table td h3 {
 	margin-bottom:4px !important;
 	margin-top:4px !important;
 	font-size:21px !important;
-	text-align: center; 
+	text-align: center;
 	color:#ffffff;
 }
 table.price_table td p {
